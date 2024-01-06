@@ -1,0 +1,496 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+    --background: linear-gradient(to bottom left, #d3f5cf, #a8dbfa, #635ee2);
+    --color: var(#fff);
+    --color1: var(#000);
+    --font-family: var('Redressed', cursive);
+    --font-family1: var( 'Big Shoulders Inline Text', sans-serif);
+    --font-family: var('Sansita', sans-serif);
+
+}
+
+
+
+body{
+    background: var(--background);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.navbar{
+
+    background-color: #313131de;
+    border: 1px solid #9c9c9c4d;
+    box-shadow:
+  0px 2.8px 1.2px rgba(0, 0, 0, 0.015),
+  0px 6.2px 2.7px rgba(0, 0, 0, 0.022),
+  0px 10.4px 4.6px rgba(0, 0, 0, 0.027),
+  0px 15.7px 6.9px rgba(0, 0, 0, 0.031),
+  0px 22.7px 10px rgba(0, 0, 0, 0.035),
+  0px 32.1px 14.2px rgba(0, 0, 0, 0.039),
+  0px 45.5px 20.1px rgba(0, 0, 0, 0.043),
+  0px 66.1px 29.2px rgba(0, 0, 0, 0.048),
+  0px 101.8px 45px rgba(0, 0, 0, 0.055),
+  0px 181px 80px rgba(0, 0, 0, 0.07);
+}
+
+.navbar-brand{
+    font-size: 2.3em;
+    font-weight: bold;
+    font-family: 'Sansita', sans-serif;
+    color: #00ff0d;
+    -webkit-text-stroke: 0.4px #000;
+}
+
+.navbar-brand:hover{
+    color: #1efd00;
+}
+
+.navbar-toggler{
+    border: 1px solid transparent;
+
+}
+
+.offcanvas-title{
+    font-size: 2em;
+    font-weight: bold;
+    font-family: 'Sansita', sans-serif;
+    color: #111;
+}
+
+.offcanvas-body .navbar-nav .nav-item .nav-link{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #00ff00;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.offcanvas-body .navbar-nav .nav-item .nav-link:hover{
+    font-size: 1.01em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background-color: #00af26c9;
+    border-radius: 15px;
+    border: 1px solid #000;
+    padding: 6px;
+    transition: 0.3s ease-in-out;
+}
+
+.hero-section{
+    background: url(1.jpg) no-repeat, #333;
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.hero-section h1{
+    font-size: 3.1em;
+    color: #f0f9ffde;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20%;
+}
+
+.hero-section p{
+    color: #f0f9ffde;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 25% 2% 27%;
+}
+
+.two_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 3%;
+}
+
+.two_btn a{
+    text-decoration: none;
+}
+
+.two_btn #hero_card {
+    color: #00af26;
+    border: 1px solid #00af26;
+    border-radius: 12px;
+    padding: 8px;
+    transition: 0.3s all ease-in;
+}
+
+.two_btn #hero_card:hover {
+    color: #fff;
+    background-color: #035f17;
+    border: 1px solid #fff;
+    border-radius: 12px;
+    padding: 8px;
+    transition: 0.35s all ease-in;
+}
+
+
+.two_btn #hero_age {
+    color: #fff;
+    background-color: #00af26;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 8px;
+    transition: 0.35s all ease-in;
+}
+
+.two_btn #hero_age:hover {
+    color: #00af26;
+    background: none;
+    border: 1px solid #00af26;
+    border-radius: 12px;
+    padding: 8px;
+    transition: 0.3s all ease-in;
+}
+
+.cards-section {
+    background-color: beige;
+    margin: 2%;
+}
+
+.cards_tittle h1{
+    margin-left: 43%;
+    font-family: 'Redressed';
+    font-weight: 700;
+    font-size: 4em;
+}
+
+.cards_tittle p{
+    margin: 2% 4% ;
+}
+
+.cards-section .cards .cards-0{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards-section .cards .cards-0 .cards1{
+    margin: 2%;
+    width: 25%;
+    border-radius: 15px;
+    box-shadow:
+  0.2px 0.2px 1.2px rgba(0, 0, 0, 0.047),
+  0.4px 0.4px 2.7px rgba(0, 0, 0, 0.06),
+  0.7px 0.7px 4.6px rgba(0, 0, 0, 0.068),
+  1.1px 1.1px 6.9px rgba(0, 0, 0, 0.073),
+  1.6px 1.6px 10px rgba(0, 0, 0, 0.075),
+  2.3px 2.3px 14.2px rgba(0, 0, 0, 0.076),
+  3.3px 3.3px 20.1px rgba(0, 0, 0, 0.076),
+  4.7px 4.7px 29.2px rgba(0, 0, 0, 0.075),
+  7.3px 7.3px 45px rgba(0, 0, 0, 0.073),
+  13px 13px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+
+.cards-section .cards .cards-0 .cards1 img{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.cards-section .cards .cards-0 .cards1 h1{
+    margin: 1% 25%;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.cards-section .cards .cards-0 .cards1 p{
+    margin: 2% 2% 2% 4%;
+    font-family: arial;
+    font-weight: 500;
+}
+
+.cards-section .cards .cards-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.cards-section .cards .cards-1 .cards2{
+    margin: 2%;
+    width: 25%;
+    border-radius: 15px;
+    box-shadow:
+  0.2px 0.2px 1.2px rgba(0, 0, 0, 0.047),
+  0.4px 0.4px 2.7px rgba(0, 0, 0, 0.06),
+  0.7px 0.7px 4.6px rgba(0, 0, 0, 0.068),
+  1.1px 1.1px 6.9px rgba(0, 0, 0, 0.073),
+  1.6px 1.6px 10px rgba(0, 0, 0, 0.075),
+  2.3px 2.3px 14.2px rgba(0, 0, 0, 0.076),
+  3.3px 3.3px 20.1px rgba(0, 0, 0, 0.076),
+  4.7px 4.7px 29.2px rgba(0, 0, 0, 0.075),
+  7.3px 7.3px 45px rgba(0, 0, 0, 0.073),
+  13px 13px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+.cards-section .cards .cards-1 .cards2 img{
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.cards-section .cards .cards-1 .cards2 h1{
+    margin: 1% 25%;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.cards-section .cards .cards-1 .cards2 p{
+    margin: 2% 2% 2% 4%;
+    font-family: arial;
+    font-weight: 500;
+}
+
+.age_section{
+    background: url(2.jpg)no-repeat, #444;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.age_section h1{
+    color: #fff;
+    background-color: #33333379;
+    font-family: 'Redressed';
+    font-weight: 600;
+    margin: 1% 37%;
+    padding: 1% 2%;
+}
+
+.age_section p{
+    color: #fff;
+    background-color: #33333379;
+    font-family: 'Redressed';
+    margin: 1% 17%;
+    padding: 1% 2%;
+}
+
+.age_section .age_container{
+    background-color: #7c7c7c6c;
+    backdrop-filter: blur(6px);
+    border-radius: 14px;
+    border: 1px solid transparent;
+    width: 400px;
+    height: 250px;
+    margin-left: 35%;
+    padding: 0 14% 0 0;
+}
+
+.age_section .age_container .input_container{
+    margin: 35%;
+}
+
+#ageInput{
+    width: 250px;
+    padding: 3%;
+    margin-bottom: 15px;
+    color: #00ff00;
+    background-color: transparent;
+    border: 2px solid #00ff00;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transition: 0.3s all ease-in;
+}
+
+#ageInput:hover{
+    width: 250px;
+    padding: 3%;
+    margin-bottom: 15px;
+    color: #fff;
+    background-color: #035f17;
+    border: 2px solid #fff;
+    border-top-left-radius: 12px;
+    transition: 0.3s all ease-in;
+}
+
+#checkAge{
+    width: 120px;
+    margin-left: 65px;
+    padding:2%;
+    color: #fff;
+    background-color: #00af26;
+    border: 2px solid transparent;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    transition: 0.2s all ease-in-out;
+}
+
+#checkAge:hover{
+    width: 120px;
+    margin-left: 65px;
+    padding:2%;
+    color: #00ff00;
+    background-color: transparent;
+    border: 2px solid #00ff00;
+    border-bottom-left-radius: 12px;
+    border-top-right-radius: 12px;
+    transition: 0.2s all ease-in-out;
+}
+
+#card-tittle-h3{
+    background-color: #fff;
+    color: #000;
+    font-family: 'Redressed';
+    font-weight: 700;
+    margin-left: 25px;
+}
+
+#ageMessage{
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .hero-section h1{
+        font-size: 160%;
+        color: #f0f9ffde;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50%;
+    }
+
+
+    .hero-section p{
+        color: #f0f9ffde;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2% 20% 0 19%;
+    }
+
+    .offcanvas-body{
+        background: linear-gradient(to left top, #111, #555);
+    }
+
+    .offcanvas-end{
+        background:linear-gradient(to left top, #111, #555);
+    }
+
+    .navbar {
+        background: linear-gradient(to right top, #111, #444 ,#777);
+    }
+
+    .two_btn{
+        padding: 3% 0 10% 0;
+    }
+
+    .two_btn #hero_card, .two_btn #hero_age{
+        padding: 1.5%;
+    }
+
+    .cards_tittle h1{
+        margin-top: 7%;
+        margin-left: 38%;
+        font-size: 3em;
+    }
+
+    .cards_tittle p{
+        margin: 5%;
+    }
+
+    .cards .cards-0{
+        flex-direction: column;
+    }
+
+    .cards-section .cards .cards-0 .cards1{
+        display: flex;
+        width: 95%;
+        height: 180px;
+        margin: 20px;
+    }
+
+    .cards-section .cards .cards-0 .cards1 img{
+        height: 100%;
+        width: 190px;
+        border-bottom-left-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .cards-section .cards .cards-0 .cards1 .card1-para p{
+        font-size: 10px;
+    }
+
+    .cards-section .cards .cards-0 .cards1 .card1-para h1{
+        font-size: 20px;
+    }
+
+    .cards .cards-1{
+        flex-direction: column;
+    }
+
+    .cards-section .cards .cards-1 .cards2{
+        display: flex;
+        width: 95%;
+        height: 180px;
+        margin: 20px;
+    }
+
+    .cards-section .cards .cards-1 .cards2 img{
+        height: 100%;
+        width: 190px;
+        border-bottom-left-radius: 12px;
+        border-top-left-radius: 12px;
+    }
+
+    .cards-section .cards .cards-1 .cards2 .card1-para h1{
+        font-size: 20px;
+    }
+
+    .cards-section .cards .cards-1 .cards2 .card1-para p{
+        font-size: 10px;
+    }
+
+    .age_section h1{
+        margin: 1% 1% 1% 1%;
+        padding: 1% 25%;
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .age_section p{
+        margin: 0 1% 15% 1%;
+        padding: 1% 5%;
+    }
+
+    .age_section .age_container{
+        width: 300px;
+        padding: 0;
+        margin: 3% 7% 2% 6%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+}
