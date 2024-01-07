@@ -270,7 +270,7 @@ body{
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .age_section h1{
@@ -366,7 +366,107 @@ body{
     font-weight: 500;
 }
 
+#contact{
+    background-color: #222;
+    background-position: center;
+    background-size: cover;
+    min-width: 98.7vw;
+    min-height: 50vh;
+    position: absolute;
+}
 
+#contact .foot{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#contact .foot .logo-name .address-section{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+#contact .foot .logo-name{
+    display: flex;
+    column-gap: 160px;
+}
+
+#contact .foot .logo-name .social-links h4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+#contact .foot .logo-name .social-links .links a i{
+    font-size: 28px;
+    color: #fff;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+#contact .foot .logo-name .social-links .links a i:hover{
+    color: #0075fa;
+}
+
+.contact-form{
+    width: 400px;
+    height: 250px;
+    margin-right: 20px;
+}
+
+.contact-form h4,
+.contact-form label{
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.contact-form h4{
+font-size: 32px;
+}
+.contact-form input,
+.contact-form label,
+.contact-form textarea,
+.contact-form button {
+    flex-direction: column;
+}
+
+.contact-form input{
+    border-radius: 12px;
+}
+
+.contact-form textarea{
+    border-radius: 12px;
+}
+
+.contact-form button {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    margin: 20px 0px 20px 170px;
+    padding: 1%;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: 0.3s all ease;
+}
+
+.contact-form button:hover {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+    margin: 20px 0px 20px 170px;
+    padding: 1%;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: 0.3s all ease;
+}
+
+.copy{
+    color: #fff;
+    margin-left: 35%;
+}
 
 @media screen and (max-width: 768px) {
     .hero-section h1{
@@ -491,6 +591,47 @@ body{
         align-items: center;
     }
 
+    .foot {
+        flex-direction: column-reverse;
+    }
 
+    .foot .logo-name{
+        flex-direction: column;
+    }
 
+    .address-section{
+        margin-top: 20%;
+    }
+
+    .contact-form{
+        margin-left: 10%;
+        flex-direction: column;
+    }
+
+    .contact-form textarea {
+        width: 199px;
+    }
+
+    .contact-form button{
+        display: flex;
+        margin-left: 14%;
+        flex-direction: column;
+    }
+
+    .foot .logo-name .address-section h2{
+        visibility: hidden;
+    }
+
+    .foot .logo-name .address-section address{
+        margin-left: 10%;
+    }
+
+    .foot .logo-name .social-links{
+        margin-left: 10%;
+    }
+
+    .copy{
+        margin-left: 10px;
+        font-size: 12px;
+    }
 }
