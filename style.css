@@ -432,8 +432,7 @@ font-size: 32px;
 }
 .contact-form input,
 .contact-form label,
-.contact-form textarea,
-.contact-form button {
+.contact-form textarea {
     flex-direction: column;
 }
 
@@ -450,26 +449,8 @@ font-size: 32px;
     border-radius: 12px;
 }
 
-.contact-form button {
-    color: #fff;
-    background-color: transparent;
-    border: 2px solid #fff;
-    margin: 20px 0px 20px 130px;
-    padding: 1%;
-    border-radius: 15px;
-    font-weight: bold;
-    transition: 0.3s all ease;
-}
-
-.contact-form button:hover {
-    color: #000;
-    background-color: #fff;
-    border: 2px solid #000;
-    margin: 20px 0px 20px 130px;
-    padding: 1%;
-    border-radius: 15px;
-    font-weight: bold;
-    transition: 0.3s all ease;
+.btn{
+    margin-left: 30%
 }
 
 .copy{
@@ -626,18 +607,8 @@ font-size: 32px;
         width: 199px;
     }
 
-    .contact-form button{
-        display: flex;
-        margin-left: 14%;
-        flex-direction: column;
-        cursor: pointer;
-    }
-
-    .contact-form button:hover{
-        display: flex;
-        margin-left: 14%;
-        flex-direction: column;
-        cursor: pointer;
+    .btn{
+        margin-left: 2%;
     }
 
     .foot .logo-name .address-section h2{

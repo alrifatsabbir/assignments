@@ -13,3 +13,7 @@ const ageInput = document.getElementById('ageInput');
         ageMessage.textContent = 'You are a child. You will be an adult soon!!';
       }
     });
+
+function ObjAlert(){
+  alert("Message Sent")
+}
